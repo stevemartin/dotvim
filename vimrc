@@ -83,6 +83,9 @@ map <leader><leader> :ZoomWin<CR>
 
 nnoremap <silent> <leader>bd :Kwbd<CR>
 
+" CTags
+map <leader>rt :!ctags --extra=+f --exclude=tmp --exclude=node_modules -R * <CR><CR>
+
 " Remember last location in file
 if has("autocmd")
   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
