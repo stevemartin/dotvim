@@ -31,20 +31,19 @@ set smartcase
 set wildmode=list:longest,list:full
 set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*
 
-" Status bar
-set laststatus=2
-set showcmd
+set laststatus=2 " Status bar
+set showcmd " Display incomplete commands
 
 " Turn off backup files
 set noswapfile
 set nobackup
 set nowb
 
-" Reload files changed outside vim
-set autoread
+set autoread " Reload files changed outside vim
 
-" Press i to enter insert mode, ii to go back to normal mode
-imap ii <esc>
+set autowrite " Automatically :write before running commands
+
+imap ii <esc> " Press i to enter insert mode, ii to go back to normal mode
 
 " Copy current filename into system clipboard
 nnoremap <silent> <leader>cf :let @* = expand("%:~")<CR>
