@@ -11,6 +11,7 @@ set hidden
 set number
 set ruler
 set encoding=utf-8
+set backspace=indent,eol,start " Fix problems with backspace in insert mode
 syntax on
 
 " Whitespace
