@@ -49,6 +49,9 @@ imap ii <esc> " Press i to enter insert mode, ii to go back to normal mode
 " Copy current filename into system clipboard
 nnoremap <silent> <leader>cf :let @* = expand("%:~")<CR>
 
+" Paste last contents of what was yanked regardless of what was deleted after
+nnoremap <leader>R "0p
+
 " Copy to clipboard
 vnoremap <C-C> "*y
 
