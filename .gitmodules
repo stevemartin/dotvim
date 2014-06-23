@@ -46,3 +46,6 @@
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = http://github.com/tpope/vim-surround.git
+[submodule "bundle/auto-save"]
+	path = bundle/auto-save
+	url = https://github.com/vim-scripts/vim-auto-save.git
