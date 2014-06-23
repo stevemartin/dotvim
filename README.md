@@ -11,6 +11,7 @@ cd ~/.vim/ && git submodule init && git submodule update
 ## Bundles
 * [ack](https://github.com/mileszs/ack.vim) lets you shell out to ack within vim using `:Ack pattern [directory]`.  By default, results show up in the quickfix window.  You can use `:AckAdd` to append to the quickfix window or prefix 'Ack' with an 'L' to use the location list (just like `:grep`'s siblings).
 * [ag](https://github.com/epmatsw/ag.vim) is the above but for ag ([a faster ack replacement](https://github.com/ggreer/the_silver_searcher))
+* [auto-save](https://github.com/vim-scripts/vim-auto-save) Save the buffer after input like RubyMine.
 * [ctrlp](https://github.com/kien/ctrlp.vim) is a fuzzy file finder invoked by hitting Ctrl-P in normal mode and typing some part of the file name you'd like to open.  This config also has `,f` mapped to the same function.
 * [vim-fugitive](https://github.com/tpope/vim-fugitive) puts git into vim.  It can do almost everything git related, some of the most useful features are:
     * `:Gblame` to blame the current file.  Press enter on a commit to see the full commit.  Do `:Gedit` to go back to the current version (or just open it again).
