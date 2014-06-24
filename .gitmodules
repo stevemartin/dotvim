@@ -49,3 +49,6 @@
 [submodule "bundle/auto-save"]
 	path = bundle/auto-save
 	url = https://github.com/vim-scripts/vim-auto-save.git
+[submodule "bundle/localvimrc"]
+	path = bundle/localvimrc
+	url = https://github.com/embear/vim-localvimrc.git
