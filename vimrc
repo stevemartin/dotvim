@@ -40,6 +40,11 @@ set noswapfile
 set nobackup
 set nowb
 
+" Speed up
+set ttyfast
+set ttyscroll=3
+set lazyredraw
+
 set autoread " Reload files changed outside vim
 
 set autowrite " Automatically :write before running commands
