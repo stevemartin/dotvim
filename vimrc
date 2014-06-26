@@ -150,7 +150,7 @@ let g:miniBufExplMapCTabSwitchBufs = 1
 nnoremap <leader>ag :Ag 
 
 " Run RSpec tests
-let g:rspec_command = "!rspec {spec}"
+let g:rspec_command = "!bundle exec rspec {spec}"
 map <leader>t :call RunCurrentSpecFile()<CR>
 map <leader>s :call RunNearestSpec()<CR>
 map <leader>l :call RunLastSpec()<CR>
