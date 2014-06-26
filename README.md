@@ -8,7 +8,27 @@ ln -s ~/.vim/vimrc ~/.vimrc
 cd ~/.vim/ && git submodule init && git submodule update
 ```
 
+## Custom Commands
+
+**NB**: <leader> is defined as *,* (comma).
+
+* **i**: goes from normal mode to insert mode.
+* **ii**: goes to normal mode from insert mode.
+* **<leader>cf**: copies the current file name into the clipboard
+* **<leader>R**: pastes last contents of what was yanked regardless of what was deleted after
+* **<ctrl>c**: (from visual mode) copies the highlighted text into the clipboard
+* **<leader>v**: vertical split
+* **<leader>h**: horizontal split
+* **<ctrl>j/k/h/l**: moves to split in desired direction
+* **<ctrl>p**: opens fuzzy file finder
+* **<leader>nt**: toggles nerdtree
+* ****
+* ****
+* ****
+* ****
+
 ## Bundles
+
 * [ack](https://github.com/mileszs/ack.vim) lets you shell out to ack within vim using `:Ack pattern [directory]`.  By default, results show up in the quickfix window.  You can use `:AckAdd` to append to the quickfix window or prefix 'Ack' with an 'L' to use the location list (just like `:grep`'s siblings).
 * [ag](https://github.com/epmatsw/ag.vim) is the above but for ag ([a faster ack replacement](https://github.com/ggreer/the_silver_searcher))
 * [auto-save](https://github.com/vim-scripts/vim-auto-save) Save the buffer after input like RubyMine.
