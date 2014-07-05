@@ -22,10 +22,8 @@ cd ~/.vim/ && git submodule init && git submodule update
 * **<ctrl>j/k/h/l**: moves to split in desired direction
 * **<ctrl>p**: opens fuzzy file finder
 * **<leader>nt**: toggles nerdtree
-* ****
-* ****
-* ****
-* ****
+* **<leader>pt**: toggles paste for better clipboard paste formatting
+    * Use this before and after pasting formatted code into the current buffer
 
 ## Bundles
 

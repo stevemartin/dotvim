@@ -150,6 +150,11 @@ let g:miniBufExplMapCTabSwitchBufs = 1
 " Open up a git grep line, with a quote started for the search
 nnoremap <leader>ag :Ag 
 
+" Toggle pasting to preserve format when pasting from clipboard into buffer
+nnoremap <leader>pt :set invpaste paste?<cr>
+set pastetoggle=<leader>pt
+set showmode
+
 " Run RSpec tests
 let g:rspec_command = "!bundle exec rspec {spec}"
 map <leader>t :call RunCurrentSpecFile()<CR>
