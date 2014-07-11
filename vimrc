@@ -56,7 +56,8 @@ imap ii <esc>
 nnoremap <silent> <leader>cf :let @* = expand("%:~")<CR>
 
 " Paste last contents of what was yanked regardless of what was deleted after
-nnoremap <leader>R "0p
+nnoremap <leader>p "0p
+nnoremap <leader>P "0P
 
 " Copy to clipboard
 vnoremap <C-C> "*y
