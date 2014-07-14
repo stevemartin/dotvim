@@ -10,7 +10,7 @@ cd ~/.vim/ && git submodule init && git submodule update
 
 ## Custom Commands
 
-**NB**: <leader> is defined as *,* (comma).
+**NB**: \<leader\> is defined as *,* (comma).
 
 * **i**: goes from normal mode to insert mode.
 * **ii**: goes to normal mode from insert mode.
