@@ -39,6 +39,7 @@ cd ~/.vim/ && git submodule init && git submodule update
 * [kwbd](https://github.com/rgarver/Kwbd.vim.git) Add a buffer close to vim that doesn't close the window
 * [nerdcommenter](https://github.com/scrooloose/nerdcommenter) lets you comment and uncomment things.  The most useful command is `,/` which comments or uncomments either the current line or the currently selected block.  This config has `,/` mapped to the Toggle instead of `,c` as listed in the docs (the rest of the commands use the `c` as listed).
 * [nerdtree](https://github.com/scrooloose/nerdtree) puts a directory tree on the left side of the screen.  Press `\` to open it at your project root, or `Shift-\` to open it with the current file selected.  You can press `m` to move, delete, or create files.  Press `?` inside the tree to get more help.
+    * **I**: Shows/Hides hidden files
 * [vim-rails](https://github.com/tpope/vim-rails) lets `gf` and `:Rextract` work on partials, highlights Rails functions.
 * [rspec](https://github.com/thoughtbot/vim-rspec.git) Run Rspec spec from Vim
 * [ruby-matchit](https://github.com/vim-scripts/ruby-matchit.git) 'Matchit' for Ruby.
