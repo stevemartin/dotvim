@@ -1,54 +1,6 @@
-[submodule "bundle/kwbd"]
-	path = bundle/kwbd
-	url = http://github.com/rgarver/Kwbd.vim.git
-[submodule "bundle/zoomwin"]
-	path = bundle/zoomwin
-	url = http://github.com/vim-scripts/ZoomWin
-[submodule "bundle/ack"]
-	path = bundle/ack
-	url = http://github.com/vim-scripts/ack.vim.git
-[submodule "bundle/ag"]
-	path = bundle/ag
-	url = http://github.com/epmatsw/ag.vim.git
-[submodule "bundle/ctrlp"]
-	path = bundle/ctrlp
-	url = http://github.com/kien/ctrlp.vim.git
-[submodule "bundle/jasmine"]
-	path = bundle/jasmine
-	url = http://github.com/claco/jasmine.vim.git
-[submodule "bundle/nerdcommenter"]
-	path = bundle/nerdcommenter
-	url = http://github.com/scrooloose/nerdcommenter.git
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = http://github.com/scrooloose/nerdtree.git
-[submodule "bundle/ruby-matchit"]
-	path = bundle/ruby-matchit
-	url = http://github.com/vim-scripts/ruby-matchit.git
-[submodule "bundle/supertab"]
-	path = bundle/supertab
-	url = http://github.com/ervandew/supertab.git
-[submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = http://github.com/scrooloose/syntastic.git
-[submodule "bundle/fugitive"]
-	path = bundle/fugitive
-	url = http://github.com/tpope/vim-fugitive.git
 [submodule "bundle/gitgrep"]
 	path = bundle/gitgrep
 	url = http://github.com/aghareza/vim-gitgrep.git
-[submodule "bundle/rails"]
-	path = bundle/rails
-	url = http://github.com/tpope/vim-rails.git
-[submodule "bundle/rspec"]
-	path = bundle/rspec
-	url = http://github.com/thoughtbot/vim-rspec.git
-[submodule "bundle/surround"]
-	path = bundle/surround
-	url = http://github.com/tpope/vim-surround.git
-[submodule "bundle/auto-save"]
-	path = bundle/auto-save
-	url = https://github.com/vim-scripts/vim-auto-save.git
-[submodule "bundle/localvimrc"]
-	path = bundle/localvimrc
-	url = https://github.com/embear/vim-localvimrc.git
+[submodule "bundle/vundle"]
+	path = bundle/vundle
+	url = git://github.com/gmarik/Vundle.vim.git
