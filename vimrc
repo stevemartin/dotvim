@@ -98,7 +98,7 @@ if has("autocmd")
 endif
 
 " NERDTree configuration
-nnoremap <silent> <C-\> :NERDTreeToggle<CR>
+nnoremap <silent> <C-\> :NERDTreeFind<CR>
 let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$']
 map <leader>nt :NERDTreeToggle<CR>
 
